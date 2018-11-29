@@ -1,14 +1,14 @@
 .navigation
 	background-color dark-grey
-	@media screen and (max-width: 768px)
+	@media screen and (min-width: 1000px)
 		position static
 
 .hamburger
-	@media screen and (max-width: 768px)
+	@media screen and (min-width: 1000px)
 		display none
 
 .menu
-	@media screen and (max-width: 768px)
+	@media screen and (min-width: 1000px)
 		height auto
 		opacity 1
 		position static
@@ -16,18 +16,27 @@
 		justify-content center
 
 .menu__item
-	padding 10px 20px
-	color white
-	font-size 18px
-	transition-property background
-	transition-duration .3s
-	&:active
+	@media screen and (min-width: 1000px)
+		padding 10px 20px
+		color white
+		font-size 18px
 		transition-property background
 		transition-duration .3s
-		background-color dark-grey
-	
-.logo__slider
-	
+		&:hover
+			transition-property background
+			transition-duration .3s
+			background-color dark-grey
 
-.logo__image
+.theme
+	@media screen and (min-width: 1000px)
+	cursor: pointer
+
+.main
+	@media screen and (min-width: 1000px)
 	width 100%
+	
+.wrapper
+	@media screen and (min-width: 1000px)
+		width 1000px
+		margin 0 auto
+	

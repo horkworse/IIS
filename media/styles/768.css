@@ -1,1 +1,84 @@
-.navigation{background-color:dark-grey;}@media screen and (min-width:768px){.navigation{position:static}}@media screen and (min-width:768px){.hamburger{display:none}}@media screen and (min-width:768px){.menu{height:auto;opacity:1;position:static;display:flex;justify-content:center}}@media screen and (min-width:768px){.copyright{displey:flex;flex-direction:row}}@media screen and (min-width:768px){.copyright__text{text-align:left;margin:10px 30px 10px 20px}.copyright__text:last-child{margin:10px 20px 10px 30px}}
+.navigation {
+  background-color: dark-grey;
+}
+@media screen and (min-width: 768px) {
+  .navigation {
+    position: static;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .menu {
+    height: auto;
+    opacity: 1;
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .block__caption {
+    font-size: 30px;
+    margin: 10px 0 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .block__text {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .block__image {
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .block__imgcapt {
+    text-align: center;
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .block__item {
+    margin: 0 0 10px 40px;
+    padding: 0 0 0 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .block__contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .block__map {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .block__list {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .copyright {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 768px) {
+  .copyright__text {
+    text-align: left;
+    margin: 10px 30px 10px 20px;
+  }
+  .copyright__text:last-child {
+    margin: 10px 20px 10px 30px;
+  }
+}
